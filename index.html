@@ -4,9 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Values Allignment</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
+	<div id="values_list">
+	<h1>Below are a list of values.  Score each from 0-10 on how <span id="values_text">important they are to you.</span>  Press Submit when done.</h1>
+	<div>Family<input type="number" class="picker" id="family" min="0" max="10" step="1" value="0"></div>
+	<div>Friends<input type="number" class="picker" id="friends" min="0" max="10" step="1" value="0"></div>
+	<div>Community<input type="number" class="picker" id="community" min="0" max="10" step="1" value="0"></div>
+	<div>Environment<input type="number" class="picker" id="environment" min="0" max="10" step="1" value="0"></div>
+	<div>Work<input type="number" class="picker" id="work" min="0" max="10" step="1" value="0"></div>	
+	<div>Education<input type="number" class="picker" id="edu" min="0" max="10" step="1" value="0"></div>
+	<div>Recreation<input type="number" class="picker" id="rec" min="0" max="10" step="1" value="0"></div>
+	<div>Spirituality<input type="number" class="picker" id="spiritual" min="0" max="10" step="1" value="0"></div>
+	<div>Physical Well-Being<input type="number" class="picker" id="health" min="0" max="10" step="1" value="0"></div>
+	<div>Intimacy/Partnership<input type="number" class="picker" id="partner" min="0" max="10" step="1" value="0"></div>
+	</div>
+	<button id="submit">Submit</button>
+	<script src="main.js"></script>
 </body>
-<script src="main.js"></script>
 </html>
