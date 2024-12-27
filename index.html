@@ -19,8 +19,11 @@
 	<div>Spirituality<input type="number" class="picker" id="spiritual" min="0" max="10" step="1" value="0"></div>
 	<div>Physical Well-Being<input type="number" class="picker" id="health" min="0" max="10" step="1" value="0"></div>
 	<div>Intimacy/Partnership<input type="number" class="picker" id="partner" min="0" max="10" step="1" value="0"></div>
-	</div>
 	<button id="submit">Submit</button>
+	</div>
+	<div id="results" class="hidden">
+	<h1> Based on your choices, you should spend more time on <span id="moreV"></span> and less time on <span id="lessV"></span>.</h1>
+	</div>
 	<script src="main.js"></script>
 </body>
 </html>
